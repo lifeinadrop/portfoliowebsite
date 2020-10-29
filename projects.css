@@ -1,0 +1,150 @@
+/* CSS Variables */
+:root {
+    --primary: #BACDD9;
+    --dark: #3C4C59;
+    --light: #fff;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+/* Main Element Styling */
+
+html {
+    box-sizing: border-box;
+    /* If padding is used, doesn't effect the width of the element. */
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--dark);
+    height: 100%;
+}
+
+body {
+    background: #BACDD9;
+    margin: 30px 50px;
+    line-height: 1.4;
+}
+
+body > iframe {
+    width: 80%;
+}
+
+.btn {
+    background-color: var(--dark);
+    color: var(--light);
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border: 0;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+.btn:hover {
+    background-color: #E95420;
+    color: #FFFFFF;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
+}
+
+footer {
+    display: block;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* Navigation Styles */
+
+.main-nav ul {
+    display: grid;
+    grid-gap: 20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.main-nav a {
+    background: var(--primary);
+    display: block;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: var(--dark);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+}
+
+.main-nav a:hover {
+    background-color: var(--dark);
+    color: var(--light);
+    transition: color .5s;
+}
+
+/* Top Container Styles */
+
+.top-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+        'showcase showcase showcase showcase showcase top-box-a';
+}
+
+/* Showcase */
+
+.showcase {
+    grid-area: showcase;
+    min-height: 475px;
+    background: url(img/motherboard.jpg);
+    background-size: cover;
+    background-position: center;
+    color: var(--light);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow);
+}
+
+.showcase h1 {
+    font-size: 6rem;
+    background: rgba(96, 115, 83, 0.85);
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Top Box */
+
+.top-box {
+    background: #F2EBDC;
+    text-align: center;
+    box-shadow: var(--shadow);
+}
+
+.top-box h1 {
+    font-size: 3rem;
+}
+
+.top-box img {
+    height: 10rem;
+    margin-top: 3rem;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.top-box img:hover {
+    background-color: #FFFFFF;
+    transition: background-color .3s;
+}
+
+.projects p {
+    font-size: 1.2em;
+    margin: 10px;
+}

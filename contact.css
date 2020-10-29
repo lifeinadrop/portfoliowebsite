@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #BACDD9;
+    color: black;
+    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1rem;
+}
+
+.container {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.wrapper {
+    box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+}
+
+.wrapper > * {
+    padding: 1rem;
+}
+
+.info {
+    background: #607353;
+}
+
+.contact-form h1 {
+    text-align: center;
+}
+
+.info h2, .info ul {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.form {
+    background: #F2EBDC;
+}
+
+/* Form Styles*/
+
+.form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.form form label {
+    display: block;
+}
+
+.form form .stretch-out {
+    grid-column: 1 / 3;
+}
+
+.form form input, .form form textarea {
+    width: 100%;
+    padding: 1.2rem;
+}
+
+.form form button {
+    display: block;
+    border: 0;
+    width: 50%;
+    height: 5rem;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #92A0A6; 
+    border-radius: .5rem;
+    font-size: 2rem;
+}
+
+.form form button:hover {
+    background-color: #3C4C59;
+    color: white;
+    transition: .2s ease-in;
+}
+
+.form textarea {
+    resize: none;
+}
