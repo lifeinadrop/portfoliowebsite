@@ -19,7 +19,7 @@ html {
 body {
     background: var(--dark);
     margin-top: 30px;
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.4;
@@ -108,6 +108,9 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 
 .showcase p {
@@ -115,7 +118,7 @@ footer {
     white-space: nowrap;
     overflow: hidden;
     font-family: 'Source Code Pro', monospace;
-    font-size: 35px;
+    font-size: 2vw;
     color: rgba(255,255,255,.70);
     margin: 0 auto;
 }
@@ -272,6 +275,7 @@ footer {
         font-size: 1rem;
     }
 
+    /*
     .mobile-text {
         display: inline-block;
     }
@@ -279,4 +283,5 @@ footer {
     .desktop-text {
         display: none;
     }
+    */
 }
