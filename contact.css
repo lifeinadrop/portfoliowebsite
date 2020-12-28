@@ -16,11 +16,6 @@ body {
     margin-right: auto;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-}
-
 .wrapper {
     box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
 }
@@ -87,4 +82,20 @@ ul {
 
 .form textarea {
     resize: none;
+}
+
+/* Navigation Styles */
+
+.main-nav li {
+    width: 100%;
+    list-style-type: none;
+}
+
+.main-nav a {
+    display: block;
+    text-align: left;
+}
+
+.main-nav img {
+    height: 35px;
 }
