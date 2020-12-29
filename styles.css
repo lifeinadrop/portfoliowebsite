@@ -87,18 +87,6 @@ footer {
     color: var(--light);
 }
 
-/* Top Container Styles */
-
-.top-container {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-areas:
-        'showcase';
-    margin-top: auto;
-    margin-bottom: auto;
-    min-height: 750px;
-}
-
 /* Showcase */
 
 .showcase {
@@ -108,8 +96,8 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10% auto auto auto;
+    height: 30%;
     width: 90%;
 }
 
@@ -193,8 +181,7 @@ footer {
     display: grid;
     grid-gap: 0px;
     width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 2% auto auto auto;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
