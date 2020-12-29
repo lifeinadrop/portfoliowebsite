@@ -101,7 +101,7 @@ footer {
 }
 
 .showcase p {
-    border-right: solid 3px rgba(0,255,0,.75);
+    border-right: solid 3px white;
     white-space: nowrap;
     overflow: hidden;
     font-family: 'Source Code Pro', monospace;
@@ -121,7 +121,7 @@ footer {
 }
 
 @keyframes animated-cursor {
-    from{border-right-color: rgba(0,255,0,.75);}
+    from{border-right-color: white;}
     to{border-right-color: transparent;}
 }
 
