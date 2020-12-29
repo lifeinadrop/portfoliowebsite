@@ -26,7 +26,7 @@
 		<div class='contact-form'>
 			<div class='wrapper'>
 				<div class='form'>
-					<form name="contact" method="POST" data-netlify="true">
+					<form name="contact" method="POST" data-netlify-recaptcha="true" netlify-honeypot="bot-field" data-netlify="true">
 						<p>
 							<label>First Name</label>
 							<input type='text' name='fname' required>
@@ -63,6 +63,11 @@
 							<label>Message</label>
 							<textarea name='message' rows="5"></textarea>
 						</p>
+						<p class="hiddenField">
+							<label>Humans can't see this.</label>
+							<input name="bot-field">
+						</p>
+						<div data-netlify-recaptcha="true"></div>
 						<p class='stretch-out'>
 							<button type="submit">Send</button>
 						</p>

@@ -88,6 +88,10 @@ h1 {
     resize: none;
 }
 
+.hiddenField {
+    display: none;
+}
+
 /* Navigation Styles */
 
 .main-nav li {
