@@ -17,10 +17,10 @@ html {
 }
 
 body {
-    background: #BACDD9;
+    background: var(--dark);
     width: 90%;
-    height: 100%;
-    margin-top: 30px;
+    height: 97%;
+    object-fit: contain;
     margin-left: auto;
     margin-right: auto;
 }
@@ -31,6 +31,16 @@ footer {
     width: 100%;
     text-align: center;
 }
+
+span {
+    display: block;
+    text-align: center;
+}
+
+span > img {
+    height: 90vh;
+}
+
 
 /* Navigation Styles */
 
