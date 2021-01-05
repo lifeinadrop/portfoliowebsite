@@ -1,9 +1,17 @@
+/* CSS Variables */
+:root {
+    --primary: #ddd;
+    --dark: #3C4C59;
+    --light: #fff;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    background: #BACDD9;
+    background: var(--dark);
     color: black;
     line-height: 1.6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -42,7 +50,8 @@ h1 {
 }
 
 .form {
-    background: #F2EBDC;
+    background: rgba(255,255,255,.70);
+    min-width: 250px;
 }
 
 /* Form Styles*/
@@ -73,7 +82,7 @@ h1 {
     height: 5rem;
     margin-right: auto;
     margin-left: auto;
-    background-color: #92A0A6; 
+    background-color: orange; 
     border-radius: .5rem;
     font-size: 2rem;
 }
@@ -81,7 +90,7 @@ h1 {
 .form form button:hover {
     background-color: #3C4C59;
     color: white;
-    transition: .2s ease-in;
+    transition: .1s ease-in;
 }
 
 .form textarea {
@@ -106,4 +115,11 @@ h1 {
 
 .main-nav img {
     height: 35px;
+}
+
+/* Media Queries */
+@media only screen and(max-width: 768px){
+    .form form p{
+        grid-column: 1 / 3;
+    }
 }
