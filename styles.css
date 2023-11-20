@@ -182,7 +182,7 @@ footer {
     row-gap: 0;
     width: 50%;
     margin: 2% auto auto auto;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
 .box-nav a {
@@ -270,7 +270,7 @@ footer {
     }
 
     .showcase p {
-        font-size: 10vw;
+        font-size: 15vw;
     }
 
     .showcase p {
