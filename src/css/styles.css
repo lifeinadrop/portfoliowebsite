@@ -1,7 +1,7 @@
 /* CSS Variables */
 :root {
     --primary: #ddd;
-    --dark: #3C4C59;
+    --dark: #D3D3D3;
     --light: #fff;
     --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
@@ -142,6 +142,10 @@ footer {
     padding: 5px 10px 10px 10px;
     font-weight: bold;
     margin-top: 0;
+}
+
+.desktop-text {
+    color: black;
 }
 
 /* Top Box */
