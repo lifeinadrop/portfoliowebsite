@@ -100,7 +100,7 @@ footer {
 .showcase {
     grid-area: showcase;
     min-height: 475px;
-    background: url(img/motherboard.jpg);
+    background: url(../../img/motherboard.jpg);
     background-size: cover;
     background-position: center;
     color: var(--light);
