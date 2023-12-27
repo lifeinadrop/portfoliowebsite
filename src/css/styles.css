@@ -3,7 +3,7 @@
     --primary: #ddd;
     --dark: #D3D3D3;
     --light: #fff;
-    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    /* --shadow: 0 1px 5px rgba(104, 104, 104, 0.8); */
 }
 
 /* Main Element Styling */
@@ -156,7 +156,7 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
-    box-shadow: var(--shadow);
+    /* box-shadow: var(--shadow); */
 }
 
 .top-box-a {
@@ -231,14 +231,13 @@ footer {
 
 .text {
     font-size: 1.5rem;
-    color: white;
+    color: black;
     width: 100%;
 }
 
 .small-box:hover .text {
     transition: .2s ease-in;
-    color: white;
-    text-shadow: 0px 0px 15px black;
+    color: black;
 }
 
 
